@@ -1,0 +1,22 @@
+{
+    "name": "nyholm/virtual-package-installation",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Tobias Nyholm",
+            "email": "tobias.nyholm@gmail.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nyholm\\VirtualPackageInstallation\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "My\\Plugin"
+    }
+
+}
