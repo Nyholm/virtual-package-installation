@@ -1,6 +1,7 @@
 {
     "name": "nyholm/virtual-package-installation",
     "type": "composer-plugin",
+    "license": "MIT",
     "authors": [
         {
             "name": "Tobias Nyholm",
@@ -16,7 +17,6 @@
         }
     },
     "extra": {
-        "class": "My\\Plugin"
+        "class": "Nyholm\\VirtualPackageInstallation\\Plugin"
     }
-
 }
